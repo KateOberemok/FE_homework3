@@ -1,0 +1,152 @@
+body {
+	background: #f9f9f9;
+	font-family: sans-serif;
+}
+.list {
+	margin:0  auto;
+	width: 850px;
+	border-left: 2px solid #efefef;
+	border-right: 2px solid #efefef;
+	box-shadow: 2px color #e7e7e7;
+	background: white;
+}
+
+.HEADER{
+	margin-right: 48px;
+	margin-left: 48px;
+}
+.menu {
+	position: relative;
+	overflow: hidden;}
+.logo {
+	height: 30px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+	}
+.menu li {
+	display:inline-block;
+	float: left;
+	list-style: none;
+	border: 1px solid #4f4f4f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #4f4f4f;
+}
+.menu li:hover {
+	background: #333333;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+.menu li:hover:first-child {
+	background: #333333;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #333333;
+} 
+.menuramka {
+	background: #4f4f4f;
+	border: 1px solid grey;
+}
+.elementy{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+.SIDEBAR {
+	margin-left: 48px;
+	width: 25%;
+	float: left;
+}
+.sidebar li {
+	list-style: none;
+	text-decoration:none;
+	padding-left: 25px;
+	padding-right: 40px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+}
+.sidebar li:first-child {
+	border-top: 1px solid #c8c8c8;
+}
+.sidebar li:hover {
+	background: #f9f9f9;
+	padding-left: 35px;	
+}
+.tovary {
+	color: #656363;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+
+.CONTENT {
+	margin-right: 48px;
+	}
+.velosiped {
+	float: right;
+	height: 295px;
+	width: 505px;
+}
+.article {
+	font-size: 11px;
+	line-height: 1.5;
+	float: right;
+	width: 490px;
+	margin-bottom: 25px;
+}
+.otstup {
+	height: 25px;
+	clear: both;
+}
+
+
+
+.FOOTER {
+	clear: both;
+	background: #e1e1e1;
+	border: 1px solid #e1e1e1;
+	margin-right: 48px;
+	margin-left: 48px;
+}
+.menu2 {
+	position: relative;
+	overflow: hidden;
+}
+.menu2 li {		
+	display:inline-block;
+	float: left;
+	list-style: none;
+	border: 1px solid #e1e1e1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #e1e1e1;
+}
+.menu2 a:hover {
+	text-decoration: underline;
+}
+.menu2 .copyright {
+	padding-left: 170px;
+	padding-top: 12px;
+}
+.elementy2, .copyright {
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	}
+
+.otstup2 {
+	position: relative;
+	overflow: hidden;
+	height: 25px;
+}
+
+
